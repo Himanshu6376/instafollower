@@ -4,7 +4,7 @@ import requests
 from streamlit_lottie import st_lottie
 
 
-model = pickle.load(open('/../Model.pkl', 'rb'))
+model = pickle.load(open('Model.pkl', 'rb'))
 col1, col2, = st.columns((2, 2,))
 
 with col1:
